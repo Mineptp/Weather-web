@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Weather</title>
+      <link rel="icon" type="image/x-icon" href="img/weather_icon.jpg">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="main.css">
+   </head>
+   <body>
+      <div class="weather-web">
+         <div class="weather-current-time-and-search">
+            <div class="weather-head-information-and-search">
+               <div class="weather-head-information">
+                  <div class="weather-head-information__name">
+                     <p class="weather-head-information__name--location"></p>
+                     <p class="weather-head-information__name--now"></p>
+                  </div>
+                  <div class="weather-head-information__status">
+                     <img class="weather-head-information__status--icon" src=""/>  
+                     <div class="weather-head-information__status--temperature__information">
+                        <p class="weather-head-information__status--temperature__information__display weather-temp-scale-up  "></p>
+                        <p class="weather-head-information__status--temperture__feel-like  "></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="weather-search">
+                  <div class="weather-search__bar">
+                     <div class="weather-search__bar--input">
+                        <input  class="weather-search__bar--input__country"type="text" placeholder="Enter the country/city name"  >
+                     </div>
+                     <div class="weather-search__ouput">
+                        <i class="fa-solid fa-location-arrow "></i>
+                        <div class="weather-search__ouput--location">
+                           <p class="weather-search__ouput--location__name"></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="weather-current">
+               <div class="weather-current__pressure">
+                  <p class="weather-current__pressure--header">Pressure </p>
+                  <p class="weather-current__pressure-content"></p>
+               </div>
+               <div class="weather-current_wind">
+                  <p class="weather-current_wind--header">Wind </p>
+                  <p class="weather-current_wind--content "></p>
+               </div>
+               <div class="weather-current_humidity">
+                  <p class="weather-current_humidity--header">Humidity </p>
+                  <p class="weather-current_humidity--content"></p>
+               </div>
+            </div>
+         </div>
+         <div class="weather-forecast">
+            <div class="weather-forecast-list">
+            </div>
+         </div>
+      </div>
+   </body>
+   <script src="main.js"></script>
+</html>
