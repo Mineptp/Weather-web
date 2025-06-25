@@ -244,6 +244,8 @@ body {
 }
 
 .weather-forecast-card {
+	display: flex;
+	flex-direction: column;
 	padding: 0 20px;
 }
 
@@ -272,11 +274,11 @@ body {
 	font-size: 18px;
 }
 
-.weather_forcast-day-of-week {
-	font-size: 20px;
+.weather-forecast-card__day-of-week {
+	font-size:20px;
 	padding-bottom: 6px;
 }
 
 .weather-forecast-card__date {
-	color: rgba(51, 51, 51, 0.78);
+	color: rgba(51, 51, 51, 0.7);
 }
