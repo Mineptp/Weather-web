@@ -242,8 +242,7 @@ body {
 	justify-content: space-around;
 	text-align: center;
 }
-
-.weather-forecast-card {
+.weather-forecast-card__information {
 	display: flex;
 	flex-direction: column;
 	padding: 0 20px;
